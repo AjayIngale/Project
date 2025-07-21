@@ -27,6 +27,7 @@ public class ProductController {
     @ResponseStatus(HttpStatus.OK)
     public List<ProductResponse>  getAllProduct() {
         System.out.println(productService.getAllProduct());
+        System.out.println(productService.getAllProduct());
        return productService.getAllProduct();
 
     }
