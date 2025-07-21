@@ -28,6 +28,8 @@ public class ProductController {
     public List<ProductResponse>  getAllProduct() {
         System.out.println(productService.getAllProduct());
         System.out.println(productService.getAllProduct());
+        System.out.println(productService.getAllProduct());
+        System.out.println(productService.getAllProduct());
        return productService.getAllProduct();
 
     }
